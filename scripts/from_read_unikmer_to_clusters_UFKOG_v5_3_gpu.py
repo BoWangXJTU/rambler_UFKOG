@@ -250,7 +250,7 @@ def run_rambler(args):
     print("Clustering completed.")
 
 if __name__ == "__main__":
-    multiprocessing.set_start_method('spawn')  # 设置启动方法为 spawn
+    multiprocessing.set_start_method('spawn')  # spawn
     parser = argparse.ArgumentParser(description="Rambler: Read clustering based on frequent k-mer patterns.")
     parser.add_argument("-r", "--reads", required=True, help="Path to the reads file in FASTA format.")
     parser.add_argument("-u", "--unikmers", required=True, help="Path to the unique k-mers file.")

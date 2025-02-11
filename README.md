@@ -3,9 +3,13 @@ This repository is a revision of RAmbler. Based on SUNK (Singly Unique Nucleotid
 
 # Path set
 `export PATH=~/miniconda3/envs/hifiasm0.24.0/bin:$PATH`
+
 `export PATH=~/miniconda3/envs/cupy/bin:$PATH`
+
 `export CUDA_HOME=/usr/local/cuda11.1`
+
 `export PATH=/usr/local/cuda-11.1/bin:$PATH`
+
 `export LD_LIBRARY_PATH=/usr/local/cuda-11.1/lib64:$LD_LIBRARY_PATH`
 
 # Example run

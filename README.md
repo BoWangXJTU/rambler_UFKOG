@@ -36,5 +36,5 @@ Support: 1, Pattern: [0, 1, 2]
 Users can find the reads files clustered based on frequent patterns in the "clusters" folder. For example, if there are two categories in the results, assembling them will yield two genome sequences after WGD. The other steps are the same as RAmbler.
 
 # TODO
-1. The debugging of complex genomic regions.
-2. GPU acceleration for real data.
+1. The debugging of ultracomplex genomic regions.
+2. GPU acceleration for big data.
